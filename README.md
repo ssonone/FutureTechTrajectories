@@ -14,13 +14,15 @@
   10. 상변화 소재 활용 열에너지 저장
 
 ## WoS 2006-2023 DB
-  - WoS 2024 1Q DB 사용 가능하여 업데이트 중
-  - Leiden cluster dataset과 동일한 범위로 설정 (doctype, edition, ...)
-  - 2023 Leiden cluster를 활용하면 micro-level assignment 매핑정보를 21년까지만 사용할 수 있으며,
-    22-23정보는 자체 할당해야 함. (그러나 이 정보가 꼭 필요한 것은 아님.)
+  - WoS 2024 1Q DB 사용 가능하여 업데이트 함. 따라서 출판연도 범위는 23년까지임.
+  - Leiden cluster dataset과 동일한 범위로 설정함
+      - doctype : Article, Review
+      - edition : SCIE, SSCI, AHCI
+  - 2023 Leiden cluster 정보를 활용하면 micro-level assignment 매핑정보를 21년까지만 사용 가능하므로, 이 정보를 채택하지 않음.
   - 저자키워드와 초록에서 키워드 검색하여 분석세트 설정
 
 ## 선정 이후 ~ 현재까지 유망성 변동 추적 평가
   1) 주요 계량서지학적 지표 활용
-  2) 전문가 설문
+  2) 전문가 설문 (아직 디자인 안함)
+  3) LLM 활용
 
